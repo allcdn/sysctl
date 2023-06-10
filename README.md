@@ -1,3 +1,3 @@
 # sysctl系统配置优化
 
-curl https://github.com/allcdn/sysctl/raw/main/sysctl.sh -o sysctl.sh && chmod +x sysctl.sh && bash sysctl.sh
+curl https://raw.githubusercontent.com/allcdn/sysctl/main/sysctl.sh -o sysctl.sh && chmod +x sysctl.sh && bash sysctl.sh
