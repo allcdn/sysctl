@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sed -i '/^# End of file/,$d' /etc/security/limits.conf
 
 cat >> /etc/security/limits.conf <<EOF
