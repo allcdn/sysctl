@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
 sed -i '/^# End of file/,$d' /etc/security/limits.conf
-
 cat >> /etc/security/limits.conf <<EOF
 # End of file
 *     soft   nofile    1048576
